@@ -1,56 +1,76 @@
-🎓 Student Grade Prediction Using Machine Learning
-This project is part of my AI coursework and focuses on predicting students' final grades using machine learning models like MLP Regressor and Linear Regression. The dataset is preprocessed, visualized, and modeled to compare prediction accuracy.
 
-📁 Dataset
-student-mat.csv: Student performance dataset containing demographic, social, and academic features.
+<h1 align="center">🎓 Student Grade Prediction Using Machine Learning</h1>
 
-Source: UCI Machine Learning Repository
+<p align="center">
+  <i>A final project for AI coursework - predicting student final grades using ML models.</i>
+</p>
 
-🧠 Models Used
-Multilayer Perceptron (MLP) Regressor
+---
 
-Linear Regression
+## 📁 Dataset
 
-📊 Features & Workflow
-Handle missing values and outliers
+📄 **student-mat.csv** — Contains demographic, social, and academic features of students.
 
-Data visualization using Seaborn & Matplotlib
+🔗 Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
 
-Encode categorical features using One-Hot Encoding
+---
 
-Train-test split (70/30)
+## 🧠 Models Used
 
-Model training and evaluation (MSE, MAE, R²)
+- 🤖 **Multilayer Perceptron (MLP) Regressor**
+- 📈 **Linear Regression**
 
-Final prediction visualization
+---
 
-📌 Requirements
-Install the required libraries using:
+## 📊 Project Workflow
 
-bash
-Copy
-Edit
+✔️ Handle missing values and outliers using IQR  
+📊 Visualize data distributions with Seaborn & Matplotlib  
+🔁 Encode categorical features using One-Hot Encoding  
+✂️ Split dataset into training and testing sets (70/30)  
+🧠 Train MLP and Linear Regression models  
+📉 Evaluate with metrics: MSE, MAE, R²  
+📌 Visualize and compare predictions  
+
+---
+
+## 🛠️ Requirements
+
+Install required libraries via pip:
+
+```bash
 pip install pandas matplotlib seaborn scikit-learn
-🚀 How to Run
-Clone this repo:
+```
 
-bash
-Copy
-Edit
+---
+
+## 🚀 How to Run
+
+1. **Clone the repository**:
+
+```bash
 git clone https://github.com/your-username/student-grade-prediction.git
-Run the Python script:
+```
 
-bash
-Copy
-Edit
+2. **Run the script**:
+
+```bash
 python grade_prediction.py
-📈 Sample Output
-Comparison of predicted vs actual grades
+```
 
-R² scores for both models
+---
 
-Plots showing feature distributions and prediction scatter
+## 📈 Sample Output
 
-📬 Contact
-Made with ❤️ by [Your Name]
-Feel free to connect on LinkedIn or reach out for collaboration!
+- 📍 Comparison of predicted vs actual grades  
+- 📊 R² scores for both models  
+- 📉 Visual scatter plots for model performance
+
+---
+
+## 🙋‍♂️ Contact
+
+Made with ❤️ by **[Your Name]**  
+📬 Let's connect on [LinkedIn](#) or collaborate on future AI projects!
+
+---
